@@ -1,12 +1,21 @@
-# React + Vite
+# Frontend FoodZilla
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React project for **Frontend FoodZilla** - a stylish and responsive food ordering platform.
 
-Currently, two official plugins are available:
+## Prerequisites
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Make sure you have the following installed:
+- [Node.js](https://nodejs.org/) (v19 or later recommended)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
 
+## Getting Started
 
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/fardin-developer/frontend_frenzy_FoodZilla
+   cd to repo
 
-test
+## npm install
+
+## npm run dev
+
