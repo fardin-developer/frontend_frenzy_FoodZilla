@@ -30,7 +30,7 @@ const ProductsCard = props => {
         <div className='card-container' key={id}>
           <div className='card'>
             <figure>
-              <img src='/itemImages/1.jpg' alt='item-img' className='card-media' />
+            <img src={`/itemImages/${image}.jpg`} alt='item-img' className='card-media' />
             </figure>
             <div className='card-body'>
               <h2 className='card-price'>Rs {price.toLocaleString()}</h2>

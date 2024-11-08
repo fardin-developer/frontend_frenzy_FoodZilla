@@ -38,7 +38,7 @@ const Restraunt = () => {
     return (
         <>
             <div className="menu-header">
-                <h1>Discover the best food & drinks in Tezpur                </h1>
+                <h1 id='discover'>Discover the best food & drinks in Tezpur                </h1>
                 <p>We know everyone has different cravings, so our menu offers a<br></br> variety of dishes to satisfy every taste bud.</p>
             </div>
             {/* <Menunav filterItem = {filterItem} menuList = {menuList}/> */}

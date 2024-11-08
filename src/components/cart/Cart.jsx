@@ -114,7 +114,7 @@ const Cart = () => {
                   return (
                     <div className='cart_items' key={index}>
                       <figure className='cart_items_img'>
-                        <img src={image} alt='product-img' />
+                        <img src='/itemImages/1.jpg' alt='product-img' />
                       </figure>
 
                       <div className='cart_items_info'>

@@ -160,6 +160,12 @@
     .main-card--container {
       flex-direction: column;
       align-items: center;
+      
+    }
+    #discover{
+      font-size: xx-large;
+      width: 90%;
+      margin: auto;
     }
   
     .card-container {

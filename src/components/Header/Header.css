@@ -77,7 +77,8 @@
         width: 96%;
         
         height: 50vh;
-        background: url('/wallpaper.webp') no-repeat ;
+        background: url('/food-del.png') no-repeat;
+        background-size: contain;
          }
 
 

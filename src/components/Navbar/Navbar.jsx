@@ -29,7 +29,7 @@ const Navbar = ({ isLoggedIn }) => {
     }
   }
 
-  const { cartItems, toggleCart,clearCart } = useContext(cartContext)
+  const { cartItems, toggleCart, clearCart } = useContext(cartContext)
   const cartQuantity = cartItems.length
 
   const handleClick = () => setClick(!click)
@@ -123,7 +123,17 @@ const Navbar = ({ isLoggedIn }) => {
             {click ? <RiCloseLine size='35' /> : <RiAlignJustify size='27' />}
           </div>
           <Link to='/' onClick={handleLogoClick}>
-            <img src={logo} alt='Logo' className='logo' />
+            {/* <img src={logo} alt='Logo' className='logo' /> */}
+            <h2 style={{
+              color: '#FE5007',  // Tomato red color to make it pop
+              fontSize: '2.5rem',  // Larger font size for emphasis
+              fontWeight: 'bold',  // Bold font weight
+              textShadow: '2px 2px 5px rgba(0, 0, 0, 0.3)',  // Subtle shadow effect
+              fontFamily: "'Poppins', sans-serif",  // Modern font style
+              letterSpacing: '2px',  // Add some spacing between letters
+            }}>
+              FoodZilla
+            </h2>
           </Link>
         </div>
         <div className='middle'>
