@@ -16,10 +16,10 @@ const Header = () => {
           </h1>
         </div>
         <div className='headp'>
-          <p>
+          {/* <p>
             Discover delectable  and unforgettable moments in our
             welcoming, culinary haven.
-          </p>
+          </p> */}
         </div>{' '}
         <button className='homepage-button' onClick={handleNavigate}>
           {' '}
