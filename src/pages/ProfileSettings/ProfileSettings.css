@@ -1,0 +1,84 @@
+.ProfileSettingsContainer{
+    /* background-color: red; */
+    width: 100%;
+    height: 100vh;
+   
+}
+.ProfileSettingsContainer h2{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2rem;
+}
+
+.profile-settings {
+  
+    padding: 60px;
+    background-color: #eeeaea;
+    /* border: 1px solid #000000; */
+    border-radius: 8px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: space-between;
+  
+    margin: 20px;
+    border-radius: 35px;
+  }
+
+  @media screen and (min-width:720px) {
+    .profile-settings{
+        width: 50%;
+        margin: auto;
+    }
+  }
+  
+  .profile-settings h2 {
+    color: #FE5007;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-settings .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .profile-settings .form-group label {
+    display: block;
+    color: #000000;
+    margin-bottom: 5px;
+  }
+  
+  .profile-settings .form-group input {
+    width: 100%;
+    padding: 17px;
+    border: 1px solid #000000;
+    border-radius: 25px;
+  }
+  
+  /* .profile-settings .btn-submit {
+    width: 100%;
+    padding: 12px;
+    background-color: #FE5007;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+  } */
+  
+  /* .profile-settings .btn-submit:hover {
+    background-color: #E44A05;
+  } */
+  .settings-section h3{
+    font-size: 20px;
+    margin: 40px 0px 10px 0px;
+  }
+  .settings-section #btn-profile-submit {
+    width: 100%;
+    padding: 17px;
+    background-color: #FE5007;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+  }

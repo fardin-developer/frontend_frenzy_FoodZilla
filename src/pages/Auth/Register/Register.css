@@ -1,0 +1,152 @@
+.auth-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("/bg3.webp") no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  padding: 40px 0px;
+}
+
+.auth-form {
+  position: relative;
+  width: 100vw;
+  max-width: 400px;
+  padding: 40px;
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5));
+  background-size: 200% 200%;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  z-index: 15;
+}
+
+.auth-form.slide-in-right {
+  animation: slide-in-right 1.0s forwards;
+}
+
+@keyframes slide-in-right {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.register-form h2 {
+  margin-bottom: 30px;
+  font-size: 2em;
+  color: #fff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.form-group label {
+  display: block;
+  font-size: 1em;
+  color: #fff;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  font-size: 1em;
+  color: #000000;
+  background: rgba(255, 255, 255, 0.8);
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.form-group input:focus {
+  background: #4b4b4b;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+.register-form button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  font-size: 1.2em;
+  color: #fff;
+  background: #6a11cb;
+  background: linear-gradient(45deg, #FE5007, #2575fc);
+  cursor: pointer;
+  margin-top: 15px;
+  transition: all 0.3s ease;
+}
+/* #regBtn{
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  font-size: 1.2em;
+  color: #fff;
+  background: #6a11cb;
+  background: linear-gradient(45deg, #FE5007, #2575fc);
+  cursor: pointer;
+  margin-top: 15px;
+  transition: all 0.3s ease;
+} */
+
+button[type="submit"]:hover {
+  background: #2575fc;
+  background: linear-gradient(45deg, #FE5007, #FE5007);
+}
+
+.toggle-link {
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+}
+
+.toggle-link p {
+  margin: 0;
+  font-size: 1em;
+  color: #fff;
+}
+
+.toggle-link a {
+  color: #2575fc;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.toggle-link a:hover {
+  color: #6a11cb;
+}
+
+::placeholder {
+  color: #aaa;
+}
+@media (max-width: 480px) {
+  .auth-form{
+    width: 90%;
+  }
+}
+/* Register.css */
+.loading-spinner {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #007bff;
+  font-weight: bold;
+}

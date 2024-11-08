@@ -1,0 +1,126 @@
+.header{
+
+   margin:  30px auto 80px auto;
+   background: url('/foodzilla.jpeg') no-repeat;
+   background-size:cover;
+   position: relative;
+   width: 96%;
+   border-radius: 20px;
+   height: 90vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: white;
+   
+
+
+}
+
+.header-content{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5vw;
+    /* max-width: 40%; */
+    bottom: 10%;
+    animation:fadeIn 3s ;
+}
+
+.header-content h1{
+    font-weight: 500;
+    color: black;
+    font-size: 4.5vw;
+    line-height: 1;
+    text-align: center;
+}
+
+.header-content p{
+    font-size: 1vw;
+    color: black;
+    
+    
+   
+   
+}
+.header-content .homepage-button{
+    font-size: 1vw;
+    padding: 12px 24px;
+    font-weight: 400;
+    border: none;
+     
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    border: 1px solid black; 
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+}
+
+
+
+.header-content .homepage-button:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid black; 
+}
+
+@media screen and (max-width: 600px) { 
+
+
+
+
+    .header{
+
+        margin:  20px auto 50px auto;
+      
+        width: 96%;
+        
+        height: 50vh;
+        background: url('/wallpaper.webp') no-repeat ;
+         }
+
+
+         .header-content{
+           
+            gap: 1.5vw;
+            /* max-width: 40%; */
+            bottom: 23%;
+     
+        }
+
+        .header-content h1{
+            font-weight: 500;
+            color: rgb(255, 255, 255);
+            font-size: 40px;
+            line-height: 1;
+            text-align: center;
+          
+        }
+        
+        .header-content p{
+            font-size: 3.5vw;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding-left: 5vw;
+            padding-right: 2vw;
+            margin-top: 30px;
+            
+           
+           
+        }
+        .header-content .homepage-button{
+            font-size: 3vw;
+           
+            font-weight: 400;
+            border: none;
+            padding: 12px 24px;
+            color: rgb(255, 255, 255);
+            background-color: #000000;
+            border: 1px solid black; 
+            border-radius: 25px;
+            cursor: pointer;
+            margin-top: 30px;
+          
+        }
+}

@@ -1,0 +1,102 @@
+.contaxtUspage{
+  width: 100vw;
+  min-height: 90vh;
+  /* background-color: pink; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.contaxtUspage .left{
+  width: 50vw;
+  display: flex;
+  /* background-color: #000000; */
+  height: 65vh;
+  font-size: 15px;
+
+  h2{
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-left: 7px;
+    margin-top: -10px;
+    color: rgb(50, 50, 50);
+
+  }
+
+  input{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  textarea{
+    width: 100%;
+    height: 100px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 20px;
+    
+  }
+  .contactBox button{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin-top: 20px;
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 18px;
+    
+    
+  }
+  button:hover{
+    background-color: #000000;
+  }
+
+}
+
+.contactBox{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: auto;
+  justify-content: space-evenly;
+  background-color: rgb(235, 235, 235);
+  border-radius: 25px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.contaxtUspage .right{
+  width: 50vw;
+  background-color: rgb(235, 235, 235);
+  height: auto;
+  border-radius:100% 0% 61% 39% / 0% 100% 0% 100% ;
+  box-shadow: 6px 5px 0px 5px;
+
+
+  
+}
+
+@media screen and (max-width:720px) {
+  .contaxtUspage{
+    display: flex;
+    justify-content: center;
+    
+  }   
+  .contaxtUspage .left{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -80px;
+  }
+ 
+  .contaxtUspage .right{
+    display: none;
+  }
+}

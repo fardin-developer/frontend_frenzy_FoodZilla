@@ -1,0 +1,146 @@
+.loginPage {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("/bg2.webp") no-repeat;
+  background-size: cover;
+  background-position:center;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+/* Login.css */
+
+.login-container {
+position: relative;
+width: 100%;
+max-width: 400px;
+padding: 40px;
+background: linear-gradient(45deg, #ffffff, #000000);
+background-size: 200% 200%;
+border-radius: 15px;
+backdrop-filter: blur(10px);
+box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+text-align: center;
+z-index: 15;
+}
+
+.login-form h2 {
+margin-bottom: 30px;
+font-size: 2em;
+color: #fff;
+letter-spacing: 1px;
+text-transform: uppercase;
+}
+
+.form-group {
+margin-bottom: 20px;
+position: relative;
+}
+
+.form-group label {
+display: block;
+font-size: 1em;
+color: #fff;
+margin-bottom: 5px;
+text-align: left;
+}
+
+.form-group input {
+width: 100%;
+padding: 15px;
+border: none;
+border-radius: 25px;
+font-size: 1em;
+color: #333;
+background: rgba(255, 255, 255, 0.8);
+outline: none;
+transition: all 0.3s ease;
+}
+
+.form-group input:focus {
+background: #fff;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+button[type="submit"] {
+width: 100%;
+padding: 15px;
+border: none;
+border-radius: 25px;
+font-size: 1.2em;
+color: #fff;
+background: #6a11cb;
+background: linear-gradient(45deg, #6a11cb, #FE5007);
+cursor: pointer;
+transition: all 0.3s ease;
+}
+
+button[type="submit"]:hover {
+background: #FE5007;
+background: linear-gradient(45deg, #FE5007, #6a11cb);
+}
+
+.register-option {
+margin-top: 20px;
+text-align: center;
+}
+
+.register-option p {
+margin: 0;
+font-size: 1em;
+color: #fff;
+}
+
+.register-option button {
+margin-top: 10px;
+padding: 10px 20px;
+border: none;
+border-radius: 25px;
+font-size: 1em;
+color: #fff;
+background: #6a11cb;
+background: linear-gradient(45deg, #6a11cb, #2575fc);
+cursor: pointer;
+transition: all 0.3s ease;
+}
+
+.register-option button:hover {
+background: #2575fc;
+background: linear-gradient(45deg, #2575fc, #6a11cb);
+}
+
+::placeholder {
+color: #aaa;
+}
+
+.bottom {
+position: absolute;
+width: 30%;
+height: 150px;
+background: #000000;
+z-index: 2;
+bottom: 0;
+right: 0;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: large;
+}
+
+.error-message{
+  color: rgb(237, 200, 78);
+  font-weight: 300;
+  font-size: 16px;
+}
+.verification-message{
+  /* background-color: #2575fc; */
+  text-align: center;
+  font-size: x-large;
+  h1{
+    color: #afabab;
+  }
+}
